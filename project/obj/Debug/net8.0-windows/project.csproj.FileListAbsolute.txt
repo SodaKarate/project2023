@@ -1,0 +1,32 @@
+\\sshfs\csabi@192.168.242\Csabi\susu\beke kerte\project\project\bin\Debug\net8.0-windows\project.exe
+\\sshfs\csabi@192.168.242\Csabi\susu\beke kerte\project\project\bin\Debug\net8.0-windows\project.deps.json
+\\sshfs\csabi@192.168.242\Csabi\susu\beke kerte\project\project\bin\Debug\net8.0-windows\project.runtimeconfig.json
+\\sshfs\csabi@192.168.242\Csabi\susu\beke kerte\project\project\bin\Debug\net8.0-windows\project.dll
+\\sshfs\csabi@192.168.242\Csabi\susu\beke kerte\project\project\bin\Debug\net8.0-windows\project.pdb
+\\sshfs\csabi@192.168.242\Csabi\susu\beke kerte\project\project\obj\Debug\net8.0-windows\project.Form1.resources
+\\sshfs\csabi@192.168.242\Csabi\susu\beke kerte\project\project\obj\Debug\net8.0-windows\project.csproj.GenerateResource.cache
+\\sshfs\csabi@192.168.242\Csabi\susu\beke kerte\project\project\obj\Debug\net8.0-windows\project.GeneratedMSBuildEditorConfig.editorconfig
+\\sshfs\csabi@192.168.242\Csabi\susu\beke kerte\project\project\obj\Debug\net8.0-windows\project.AssemblyInfoInputs.cache
+\\sshfs\csabi@192.168.242\Csabi\susu\beke kerte\project\project\obj\Debug\net8.0-windows\project.AssemblyInfo.cs
+\\sshfs\csabi@192.168.242\Csabi\susu\beke kerte\project\project\obj\Debug\net8.0-windows\project.csproj.CoreCompileInputs.cache
+\\sshfs\csabi@192.168.242\Csabi\susu\beke kerte\project\project\obj\Debug\net8.0-windows\project.dll
+\\sshfs\csabi@192.168.242\Csabi\susu\beke kerte\project\project\obj\Debug\net8.0-windows\refint\project.dll
+\\sshfs\csabi@192.168.242\Csabi\susu\beke kerte\project\project\obj\Debug\net8.0-windows\project.pdb
+\\sshfs\csabi@192.168.242\Csabi\susu\beke kerte\project\project\obj\Debug\net8.0-windows\project.genruntimeconfig.cache
+\\sshfs\csabi@192.168.242\Csabi\susu\beke kerte\project\project\obj\Debug\net8.0-windows\ref\project.dll
+C:\Users\Csabi\Desktop\project\project\bin\Debug\net8.0-windows\project.exe
+C:\Users\Csabi\Desktop\project\project\bin\Debug\net8.0-windows\project.deps.json
+C:\Users\Csabi\Desktop\project\project\bin\Debug\net8.0-windows\project.runtimeconfig.json
+C:\Users\Csabi\Desktop\project\project\bin\Debug\net8.0-windows\project.dll
+C:\Users\Csabi\Desktop\project\project\bin\Debug\net8.0-windows\project.pdb
+C:\Users\Csabi\Desktop\project\project\obj\Debug\net8.0-windows\project.Form1.resources
+C:\Users\Csabi\Desktop\project\project\obj\Debug\net8.0-windows\project.csproj.GenerateResource.cache
+C:\Users\Csabi\Desktop\project\project\obj\Debug\net8.0-windows\project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Csabi\Desktop\project\project\obj\Debug\net8.0-windows\project.AssemblyInfoInputs.cache
+C:\Users\Csabi\Desktop\project\project\obj\Debug\net8.0-windows\project.AssemblyInfo.cs
+C:\Users\Csabi\Desktop\project\project\obj\Debug\net8.0-windows\project.csproj.CoreCompileInputs.cache
+C:\Users\Csabi\Desktop\project\project\obj\Debug\net8.0-windows\project.dll
+C:\Users\Csabi\Desktop\project\project\obj\Debug\net8.0-windows\refint\project.dll
+C:\Users\Csabi\Desktop\project\project\obj\Debug\net8.0-windows\project.pdb
+C:\Users\Csabi\Desktop\project\project\obj\Debug\net8.0-windows\project.genruntimeconfig.cache
+C:\Users\Csabi\Desktop\project\project\obj\Debug\net8.0-windows\ref\project.dll
