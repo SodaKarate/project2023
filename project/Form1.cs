@@ -1,11 +1,18 @@
+using Microsoft.VisualBasic.ApplicationServices;
+using System.Windows.Forms;
+
 namespace project
 {
+   
     public partial class Form1 : Form
     {
-        szamolas szamolas = new szamolas();
+        model szamolas = new model();
+        double l = 0;
+
         public Form1()
         {
             InitializeComponent();
+
             Button sinBut = button1;
             Button cosBut = button2;
             Button tanBut = button3;
@@ -31,7 +38,6 @@ namespace project
             Button zeroBut = button23;
             Button dotBut = button24;
             Button eqBut = button25;
-
             List<string> buttonNames = new List<string>() {
                 "sin", "cos", "tan","!","X",
                 "^","7","8","9","/",
@@ -52,6 +58,52 @@ namespace project
             {
                 buttons[i].Text = buttonNames[i];
             }
+
+            resetBut.Click += (s, e) =>
+            {
+                textBox1.Text = "";
+                listBox1.Items.Clear();
+            };
+
+            sinBut.Click += (s, e) =>
+            {
+                double angle = double.Parse(textBox1.Text);
+                double result = szamolas.sin(angle);
+                listBox1.Items.Add(result);
+            };
+            cosBut.Click += (s, e) =>
+            {
+                double angle2 = double.Parse(textBox1.Text);
+                double result2 = szamolas.cos(angle2);
+                listBox1.Items.Add(result2);
+            };
+            tanBut.Click += (s, e) =>
+            {
+                double angle3 = double.Parse(textBox1.Text);
+                double result3 = szamolas.tan(angle3);
+                listBox1.Items.Add(result3);
+            };
+            facBut.Click += (s, e) =>
+            {
+                double temp = double.Parse(textBox1.Text);
+                double res = szamolas.fact(temp);
+                listBox1.Items.Add(res);
+            };
+            multBut.Click += (s, e) =>
+            {
+                
+            };
+            powBut.Click += (s, e) =>
+            {
+                double res = szamolas.pow(textBox1.Text);
+                listBox1.Items.Add(res);
+            };
+            eqBut.Click += (s, e) =>
+            {
+                if(button5)
+            };
+
+
         }
     }
 }

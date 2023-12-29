@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Csabi\\Desktop\\project\\project\\project.csproj": {}
+    "C:\\Users\\msi\\Documents\\project\\project2023\\project\\project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Csabi\\Desktop\\project\\project\\project.csproj": {
+    "C:\\Users\\msi\\Documents\\project\\project2023\\project\\project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Csabi\\Desktop\\project\\project\\project.csproj",
+        "projectUniqueName": "C:\\Users\\msi\\Documents\\project\\project2023\\project\\project.csproj",
         "projectName": "project",
-        "projectPath": "C:\\Users\\Csabi\\Desktop\\project\\project\\project.csproj",
-        "packagesPath": "C:\\Users\\Csabi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Csabi\\Desktop\\project\\project\\obj\\",
+        "projectPath": "C:\\Users\\msi\\Documents\\project\\project2023\\project\\project.csproj",
+        "packagesPath": "C:\\Users\\msi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\msi\\Documents\\project\\project2023\\project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Csabi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\msi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
