@@ -7,7 +7,12 @@ namespace project
     public partial class Form1 : Form
     {
         model szamolas = new model();
-        double l = 0;
+        bool multbutclicked=false;
+        bool powbutclicked = false;
+        bool subbutclicked = false;
+        bool addbutclicked=false;
+        bool divbutclicked = false;
+        
 
         public Form1()
         {
@@ -59,12 +64,6 @@ namespace project
                 buttons[i].Text = buttonNames[i];
             }
 
-            resetBut.Click += (s, e) =>
-            {
-                textBox1.Text = "";
-                listBox1.Items.Clear();
-            };
-
             sinBut.Click += (s, e) =>
             {
                 double angle = double.Parse(textBox1.Text);
@@ -91,16 +90,131 @@ namespace project
             };
             multBut.Click += (s, e) =>
             {
-                
+                multbutclicked=true;
+                textBox1.AppendText("*"); 
             };
             powBut.Click += (s, e) =>
             {
-                double res = szamolas.pow(textBox1.Text);
+                powbutclicked = true;
+                textBox1.AppendText("^");
+            };
+            sevenBut.Click += (s, e) =>
+            {
+                textBox1.AppendText("7");
+            };
+            eightBut.Click += (s, e) =>
+            {
+                textBox1.AppendText("8");
+            };
+            nineBut.Click += (s, e) =>
+            {
+                textBox1.AppendText("9");
+            };
+            divBut.Click += (s, e) =>
+            {
+                divbutclicked = true;
+                textBox1.AppendText("/");
+            };
+            sqBut.Click += (s, e) =>
+            {
+                double temp = double.Parse(textBox1.Text);
+                double res = szamolas.sq(temp);
                 listBox1.Items.Add(res);
             };
+            fourBut.Click += (s, e) =>
+            {
+                textBox1.AppendText("4");
+            };
+            fiveBut.Click += (s, e) =>
+            {
+                textBox1.AppendText("5");
+            };
+            sixBut.Click += (s, e) =>
+            {
+                textBox1.AppendText("6");
+            };
+            addBut.Click += (s, e) =>
+            {
+                addbutclicked = true;
+                textBox1.AppendText("+");
+            };
+            sqrBut.Click += (s, e) =>
+            {
+                double temp = double.Parse(textBox1.Text);
+                double res = szamolas.sqr(temp);
+                listBox1.Items.Add(res);
+            };
+            oneBut.Click += (s, e) =>
+            {
+                textBox1.AppendText("1");
+            };
+            twoBut.Click += (s, e) =>
+            {
+                textBox1.AppendText("2");
+            };
+            threeBut.Click += (s, e) =>
+            {
+                textBox1.AppendText("3");
+            };
+
+            subBut.Click += (s, e) =>
+            {
+                subbutclicked = true;
+                textBox1.AppendText("-");
+            };
+            resetBut.Click += (s, e) =>
+            {
+                multbutclicked = false;
+                powbutclicked = false;
+                subbutclicked = false;
+                addbutclicked = false;
+                divbutclicked = false;
+                
+                textBox1.Text = "";
+                listBox1.Items.Clear();
+            };
+            backBut.Click += (s, e) =>
+            {
+                listBox1.Items.Clear();
+                textBox1.Text = textBox1.Text.Remove(textBox1.Text.Length - 1, 1);
+            };
+            zeroBut.Click += (s, e) =>
+            {
+                textBox1.AppendText("0");
+            };
+            dotBut.Click += (s, e) =>
+            {
+                textBox1.AppendText(".");
+            };
+
             eqBut.Click += (s, e) =>
             {
-                if(button5)
+                if (multbutclicked)
+                {
+                    double res = szamolas.mult(textBox1.Text);
+                    listBox1.Items.Add(res);
+                }
+                if (powbutclicked)
+                {
+                    double res = szamolas.pow(textBox1.Text);
+                    listBox1.Items.Add(res);
+                }
+                if (divbutclicked)
+                {
+                    double res = szamolas.div(textBox1.Text);
+                    listBox1.Items.Add(res);
+                }
+                if (addbutclicked)
+                {
+                    double res = szamolas.add(textBox1.Text);
+                    listBox1.Items.Add(res);
+                }
+                if (subbutclicked)
+                {
+                    double res = szamolas.sub(textBox1.Text);
+                    listBox1.Items.Add(res);
+                }
+
             };
 
 

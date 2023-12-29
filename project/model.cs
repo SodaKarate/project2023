@@ -33,15 +33,41 @@ namespace project
         }
         public double mult(string input)
         {
-            double num1 = double.Parse(input.Split('*')[0]);
-            double num2 = double.Parse(input.Split('*')[1]);
+            double num1 = double.Parse(input.Split("*")[0]);
+            double num2 = double.Parse(input.Split("*")[1]);
             return num1 * num2;
         }
         public double pow(string input)
         {
-            double num1 = double.Parse(input.Split('^')[0]);
-            double num2 = double.Parse(input.Split('^')[1]);
+            double num1 = double.Parse(input.Split("^")[0]);
+            double num2 = double.Parse(input.Split("^")[1]);
             return Math.Pow(num1,num2);
+        }
+        public double div(string input)
+        {
+            double num1 = double.Parse(input.Split("/")[0]);
+            double num2 = double.Parse(input.Split("/")[1]);
+            return num1/num2;
+        }
+        public double sq(double x)
+        {
+            return Math.Pow(x,2);
+        }
+        public double add(string input)
+        {
+            double num1 = double.Parse(input.Split("+")[0]);
+            double num2 = double.Parse(input.Split("+")[1]);
+            return num1 + num2;
+        }
+        public double sqr(double x)
+        {
+            return Math.Sqrt(x);
+        }
+        public double sub(string input)
+        {
+            double num1 = double.Parse(input.Split("-")[0]);
+            double num2 = double.Parse(input.Split("-")[1]);
+            return num1 - num2;
         }
 
     }
