@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\csabi\\Desktop\\github cuccok\\project2023\\project\\project.csproj": {}
+    "C:\\Users\\farag\\Desktop\\github cuccok\\project2023\\project\\project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\csabi\\Desktop\\github cuccok\\project2023\\project\\project.csproj": {
+    "C:\\Users\\farag\\Desktop\\github cuccok\\project2023\\project\\project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\csabi\\Desktop\\github cuccok\\project2023\\project\\project.csproj",
+        "projectUniqueName": "C:\\Users\\farag\\Desktop\\github cuccok\\project2023\\project\\project.csproj",
         "projectName": "project",
-        "projectPath": "C:\\Users\\csabi\\Desktop\\github cuccok\\project2023\\project\\project.csproj",
-        "packagesPath": "C:\\Users\\csabi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\csabi\\Desktop\\github cuccok\\project2023\\project\\obj\\",
+        "projectPath": "C:\\Users\\farag\\Desktop\\github cuccok\\project2023\\project\\project.csproj",
+        "packagesPath": "C:\\Users\\farag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\farag\\Desktop\\github cuccok\\project2023\\project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\csabi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\farag\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

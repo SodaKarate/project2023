@@ -18,6 +18,8 @@ namespace project
         {
             InitializeComponent();
 
+            this.BackColor = Color.FromArgb(30, 40, 50);
+
             Button sinBut = button1;
             Button cosBut = button2;
             Button tanBut = button3;
@@ -48,7 +50,7 @@ namespace project
                 "^","7","8","9","/",
                 "^2","4","5","6","+",
                 "sqr","1","2","3","-",
-                "reset","backspace","0",".","="
+                "res","<-","0",".","="
             };
 
             List<Button> buttons = new List<Button>() {
@@ -59,9 +61,14 @@ namespace project
                 resetBut, backBut, zeroBut, dotBut, eqBut
             };
 
+            int szincucc = 0;
             for (int i = 0; i < buttons.Count; i++)
             {
                 buttons[i].Text = buttonNames[i];
+                buttons[i].ForeColor = Color.White;
+                buttons[i].Font = new Font("Arial", 23, FontStyle.Bold);
+                buttons[i].BackColor = Color.FromArgb(szincucc, 50, 252);
+                szincucc += 10;
             }
 
             sinBut.Click += (s, e) =>
@@ -188,11 +195,11 @@ namespace project
                 {
                     textBox1.AppendText(",");
                 }
-                else if(szamolas.hunloc() == false)
+                else if (szamolas.hunloc() == false)
                 {
                     textBox1.AppendText(".");
                 }
-                
+
             };
 
             eqBut.Click += (s, e) =>
