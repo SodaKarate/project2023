@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -68,6 +69,18 @@ namespace project
             double num1 = double.Parse(input.Split("-")[0]);
             double num2 = double.Parse(input.Split("-")[1]);
             return num1 - num2;
+        }
+        public bool hunloc()
+        {
+            CultureInfo ci = CultureInfo.InstalledUICulture;
+            if (ci.Name == "hu-HU")
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
     }

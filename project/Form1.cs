@@ -1,18 +1,18 @@
 using Microsoft.VisualBasic.ApplicationServices;
+using System.Globalization;
 using System.Windows.Forms;
 
 namespace project
 {
-   
+
     public partial class Form1 : Form
     {
         model szamolas = new model();
-        bool multbutclicked=false;
+        bool multbutclicked = false;
         bool powbutclicked = false;
         bool subbutclicked = false;
-        bool addbutclicked=false;
+        bool addbutclicked = false;
         bool divbutclicked = false;
-        
 
         public Form1()
         {
@@ -59,7 +59,7 @@ namespace project
                 resetBut, backBut, zeroBut, dotBut, eqBut
             };
 
-            for(int i =0; i < buttons.Count; i++)
+            for (int i = 0; i < buttons.Count; i++)
             {
                 buttons[i].Text = buttonNames[i];
             }
@@ -90,8 +90,8 @@ namespace project
             };
             multBut.Click += (s, e) =>
             {
-                multbutclicked=true;
-                textBox1.AppendText("*"); 
+                multbutclicked = true;
+                textBox1.AppendText("*");
             };
             powBut.Click += (s, e) =>
             {
@@ -169,7 +169,7 @@ namespace project
                 subbutclicked = false;
                 addbutclicked = false;
                 divbutclicked = false;
-                
+
                 textBox1.Text = "";
                 listBox1.Items.Clear();
             };
@@ -184,7 +184,15 @@ namespace project
             };
             dotBut.Click += (s, e) =>
             {
-                textBox1.AppendText(".");
+                if (szamolas.hunloc() == true)
+                {
+                    textBox1.AppendText(",");
+                }
+                else if(szamolas.hunloc() == false)
+                {
+                    textBox1.AppendText(".");
+                }
+                
             };
 
             eqBut.Click += (s, e) =>

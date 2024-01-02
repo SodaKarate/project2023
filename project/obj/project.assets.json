@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\farag\\.nuget\\packages\\": {}
+    "C:\\Users\\csabi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\farag\\Documents\\GitHub\\project2023\\project\\project.csproj",
+      "projectUniqueName": "C:\\Users\\csabi\\Desktop\\github cuccok\\project2023\\project\\project.csproj",
       "projectName": "project",
-      "projectPath": "C:\\Users\\farag\\Documents\\GitHub\\project2023\\project\\project.csproj",
-      "packagesPath": "C:\\Users\\farag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\farag\\Documents\\GitHub\\project2023\\project\\obj\\",
+      "projectPath": "C:\\Users\\csabi\\Desktop\\github cuccok\\project2023\\project\\project.csproj",
+      "packagesPath": "C:\\Users\\csabi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\csabi\\Desktop\\github cuccok\\project2023\\project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\farag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\csabi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
